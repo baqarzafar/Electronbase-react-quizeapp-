@@ -14,9 +14,8 @@ body {
   );
   font-family: sans-serif;
   overflow-y: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+
 }
 
 button {
@@ -55,8 +54,21 @@ a:hover {
 }
 
 .Hello {
+
+
+
+
+margin-top:10% ;
+}
+#selectquiz {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#selectquiz input {
+  margin-bottom: 10px; /* Adjust the spacing between inputs as needed */
+  padding: 5%;
+  font-size: larger;
+  /* Add more styles as per your requirements */
 }
